@@ -26,9 +26,8 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
-
-import br.com.mikaelkobama.backend.domain.Transacao;
-import br.com.mikaelkobama.backend.domain.TransacaoCNAB;
+import br.com.mikaelkobama.backend.entity.Transacao;
+import br.com.mikaelkobama.backend.entity.TransacaoCNAB;
 
 @Configuration
 public class BatchConfig {

@@ -1,4 +1,4 @@
-package br.com.mikaelkobama.backend.domain;
+package br.com.mikaelkobama.backend.entity;
 
 import java.math.BigDecimal;
 import java.sql.Date;

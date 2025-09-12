@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class ExceptionHandlerController {
 
   @ExceptionHandler(JobInstanceAlreadyCompleteException.class)
-  private ResponseEntity<Object> handleFileAlredyImported(
+  private ResponseEntity<Object> handleFileAlreadyImported(
       JobInstanceAlreadyCompleteException exception) {
     return ResponseEntity.status(HttpStatus.CONFLICT)
         .body("O Arquivo informado já foi importado no sistema!");
